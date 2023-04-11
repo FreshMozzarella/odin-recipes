@@ -3,13 +3,15 @@
     background-color: #2e1519;
     color: white;
     text-align: center;
-    align-items: center;
+}
+
+.description, .ingredients, .steps {
+    margin: 5px;
 }
 
 .header {
     font-size: 26px;
     font-weight: bold;
-    display: block;
 }
 
 .image {
@@ -23,6 +25,7 @@
 .caption {
     font-size: 18px;
     padding: 20px;
+    text-align: center;
 }
 
 div a {
@@ -45,13 +48,11 @@ div a:active {
 }
 
 ol, ul {
-text-align: center;
 list-style-position: inside;
 }
 
 .center li {
     text-align: center;
-    margin-left: 5%;
 }
 .table {
     text-align: center;
